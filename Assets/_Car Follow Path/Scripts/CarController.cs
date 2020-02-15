@@ -62,7 +62,7 @@ public class CarController : MonoBehaviour
 
         previousWaypoint = GetPreviousWaypoint();
 
-        PIDControllerScript = GetComponent<PIDController>();
+        PIDControllerScript = new PIDController();
     }
 
 
