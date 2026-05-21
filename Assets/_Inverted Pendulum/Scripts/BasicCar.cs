@@ -127,11 +127,11 @@ public class BasicCar : MonoBehaviour
         //Limit speed
 
         //Get the speed in km/h
-        float speed = transform.GetComponent<Rigidbody>().velocity.magnitude * 3.600f;
+        float speed = transform.GetComponent<Rigidbody>().linearVelocity.magnitude * 3.600f;
 
         //print(speed);
 
-        if (transform.GetComponent<Rigidbody>().velocity.magnitude * 3.600f > 40f)
+        if (transform.GetComponent<Rigidbody>().linearVelocity.magnitude * 3.600f > 40f)
         {
             motorTorque *= 0.6f;
         }
