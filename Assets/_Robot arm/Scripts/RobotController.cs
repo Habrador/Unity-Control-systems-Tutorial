@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Based on https://www.alanzucconi.com/2017/04/17/procedural-animations/
 public class RobotController : MonoBehaviour 
 {
     //All joints belong to this robot
